@@ -2,7 +2,7 @@
 
 ## Overview
 
-QueryX is a powerful data retrieval and processing tool designed to extract and query information from various data sources, including relational databases, NoSQL databases, and multiple file formats such as JSON, XML, PDFs, Excel sheets, and CSV files etc.
+QueryX is a powerful data retrieval and processing tool designed to extract and query information from various data sources by **user prompts**, including relational databases, NoSQL databases, and multiple file formats such as JSON, XML, PDFs, Excel sheets, and CSV files etc.
 
 ## Use Cases
 
