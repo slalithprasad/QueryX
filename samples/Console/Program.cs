@@ -35,9 +35,9 @@ using var serviceProvider = services.BuildServiceProvider();
 var queryXService = serviceProvider.GetRequiredService<IQueryXService>();
 
 string? prompt = Console.ReadLine();
-var (query, result) = await queryXService.QueryAsync(prompt);
+var (sqlQuery, result) = await queryXService.QueryAsync(prompt);
 
-Console.WriteLine(@$"Query: {query}
+Console.WriteLine(@$"SQL Query: {sqlQuery}
 
 Result: 
 {JsonSerializer.Serialize(result, new JsonSerializerOptions { WriteIndented = true })}");

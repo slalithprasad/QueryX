@@ -18,7 +18,7 @@ public class SqlQueryGeneratorService(QueryXConfiguration configuration) : ISqlQ
         {FormatDatabaseSchema(schema)}
     
         Rules:
-        - Do not Use JOINs and query only single table.
+        - Use JOINs when necessary.
         - Ensure the query is efficient.
         - Never delete or modify data.
         - Do not include explanations, JSON, Markdown, or any extra formatting like ```sql``` etc.
