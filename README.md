@@ -16,5 +16,5 @@ QueryX is a powerful data retrieval and processing tool designed to extract and 
 
 - **Support for Additional Databases**: Expand to more relational (PostgreSQL, MySQL, etc.),  NoSQL (DynamoDB, CouchDB, etc.) databases.
 - **File Format Support**: Add support for JSON, XML, and other structured/unstructured formats.
-- **Advanced AI Capabilities**: Implement AI-driven data extraction and transformation.
 - **NuGet Package Deployment**: QueryX will be packaged and distributed via NuGet for seamless integration into .NET applications.
+- **Analytics**: Implement powerful analytics capabilities for QueryX, enabling in-depth data insights and reporting.
